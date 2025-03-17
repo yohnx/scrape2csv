@@ -2,6 +2,11 @@ import json
 
 _config={
     "url": "https://store.steampowered.com/specials",
+    "meta": {
+        "name": "steam sales scraper",
+        "description": "Extracts the game info and current price from steam",
+        "version": "0.1"
+    },
     "container": {
         "name": "stores_sales_div",
         "selector": "div[class*='gASJ2lL']",
